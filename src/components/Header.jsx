@@ -3,8 +3,8 @@ import { Box, Flex, Text, Button, useColorModeValue, Link } from "@chakra-ui/rea
 import { Link as RouterLink } from "react-router-dom";
 
 const Header = () => {
-  const bg = useColorModeValue("gray.200", "gray.700");
-  const color = useColorModeValue("gray.800", "white");
+  const bg = useColorModeValue("white", "gray.800");
+  const color = useColorModeValue("gray.600", "white");
 
   return (
     <Box bg={bg} px={4}>
