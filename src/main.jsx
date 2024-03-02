@@ -11,12 +11,36 @@ const colors = {
   },
 };
 
-const theme = extendTheme({ colors });
+const theme = extendTheme({
+  colors,
+  fonts: {
+    heading: "Georgia, serif",
+    body: "Arial, sans-serif",
+  },
+  components: {
+    Button: {
+      baseStyle: {
+        fontWeight: "normal",
+      },
+    },
+  },
+  styles: {
+    global: {
+      "html, body": {
+        color: colors.gray[700],
+        lineHeight: "tall",
+      },
+      a: {
+        color: colors.blue[800],
+      },
+    },
+  },
+});
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
       <App />
     </ChakraProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );

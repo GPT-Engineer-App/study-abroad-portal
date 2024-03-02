@@ -10,7 +10,7 @@ const Index = () => {
     <Box>
       <Container maxW="container.xl">
         {/* Hero Section */}
-        <Flex align="center" justify="center" py={20} direction={{ base: "column", md: "row" }}>
+        <Flex align="center" justify="center" py={20} direction={{ base: "column", md: "row" }} boxShadow="xl">
           <VStack align="start" spacing={5} mb={{ base: 12, md: 0 }}>
             <Heading as="h1" size="xl">
               Explore the World of Education
