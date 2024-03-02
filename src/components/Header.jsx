@@ -12,7 +12,7 @@ const Header = () => {
         <Box>
           <Link as={RouterLink} to="/">
             <Text fontSize="lg" fontWeight="bold" color={color}>
-              Study Abroad
+              EDUBALTIC
             </Text>
           </Link>
         </Box>

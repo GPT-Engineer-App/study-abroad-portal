@@ -64,7 +64,7 @@ const Index = () => {
         {/* Footer Section */}
         <Box py={10}>
           <Text align="center" color={color}>
-            © {new Date().getFullYear()} Study Abroad, Inc. All rights reserved.
+            © {new Date().getFullYear()} EDUBALTIC, Inc. All rights reserved.
           </Text>
         </Box>
       </Container>
