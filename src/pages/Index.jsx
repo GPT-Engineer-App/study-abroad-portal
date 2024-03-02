@@ -1,7 +1,6 @@
 import React from "react";
-import { Box, Container, Flex, Heading, Text, Button, Image, VStack, Icon, SimpleGrid, useColorModeValue, Stack, FormControl, FormLabel, Input, Textarea } from "@chakra-ui/react";
+import { Box, Container, Flex, Heading, Text, Button, Image, VStack, HStack, Icon, SimpleGrid, useColorModeValue, Link, Stack, FormControl, FormLabel, Input, Textarea } from "@chakra-ui/react";
 import { FaGlobeAmericas, FaGraduationCap, FaHandsHelping, FaRegEnvelope } from "react-icons/fa";
-import Header from "../components/Header";
 
 const Index = () => {
   const bg = useColorModeValue("gray.100", "gray.700");
